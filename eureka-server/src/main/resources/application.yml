@@ -1,0 +1,20 @@
+server:
+  port: 8761
+#配置应用的名字
+spring:
+  application:
+    name: eureka-server
+
+   
+eureka:
+  client:
+    #是否将当前应用注册到注册中心 
+    register-with-eureka: false
+    #当前项目是否到注册中心中拉去服务列表 
+    fetch-registry: false 
+
+      
+      
+      
+
+
